@@ -25,7 +25,7 @@ cd /gamfq/examples/battle_model
 ./build.sh
 ```
 
-Create a new ```data``` folder and extract ```battle.rar```, ```gather.rar``, ```pursuit.rar``` to the ```gamfq/data```
+Create a new ```data``` folder and extract ```battle.rar```, ```gather.rar```, ```pursuit.rar``` to the ```gamfq/data```
 ## Taking the battle environment as an example, gather and pursuit are similar.
 ### Training 'mfac', 'mfq', 'pomfq', 'gamfq'
 
