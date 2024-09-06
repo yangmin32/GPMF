@@ -1,6 +1,6 @@
 # GPMF
 Partially Observable Mean Field Multi-Agent Reinforcement  Learning Based on Graph Attention Network for UAV Swarms
-This environment contains three confrontation environments: battle, gathor, pursuit.
+This environment contains three confrontation environments: battle, gather, pursuit.
 
 Implementation of GPMF (Graphattention network supported Partially observable Mean Field Multi-agent reinforcement learning) . The paper can be found [here](https://doi.org/10.3390/drones7070476).
 
@@ -10,8 +10,7 @@ The repository is based on [POMFQ](https://github.com/Sriram94/pomfrl).
 
 See folder gamfq for training and testing scripts of the environment.
 
-## Quick Start
-### Requirements
+## Requirements
 ```linux
 Ubuntu 18.04
 python==3.6.1
@@ -21,14 +20,11 @@ tensorflow 2
 libboost libraries
 ```
 Download the files and store them in a separate directory to build the MAgent framework.
-
-### Build the MAgent framework
-
 ```python
 cd /gamfq/examples/battle_model
 ./build.sh
 ```
-
+## Taking the battle environment as an example, gather and pursuit are similar.
 ### Training 'mfac', 'mfq', 'pomfq', 'gamfq'
 
 ```python
