@@ -30,7 +30,7 @@ cd /gamfq/examples/battle_model
 ```python
 cd gamfq
 export PYTHONPATH=./examples/battle_model/python:${PYTHONPATH}
-python3 train_battle.py --algo mfq
+python3 gamfq/train_battle.py --algo mfq
 ```
 
 ### Testing
