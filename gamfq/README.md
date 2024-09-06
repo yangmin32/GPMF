@@ -24,11 +24,13 @@ Download the files and store them in a separate directory to build the MAgent fr
 cd /gamfq/examples/battle_model
 ./build.sh
 ```
+
+Create a new ```data``` folder and extract ```battle.rar```, ```gather.rar```, ```pursuit.rar``` to the ```gamfq/data```
 ## Taking the battle environment as an example, gather and pursuit are similar.
 ### Training 'mfac', 'mfq', 'pomfq', 'gamfq'
 
 ```python
-cd gamfq
+cd gamfq  
 export PYTHONPATH=./examples/battle_model/python:${PYTHONPATH}
 python3 train_battle.py --algo mfq
 ```
@@ -100,8 +102,3 @@ If you found this helpful, please cite the following paper:
   publisher={MDPI}
 }
 ```
-
-
-
-
-
